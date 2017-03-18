@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:columnCount="3"
     android:rowCount="5"
-    android:background="#003333"
+    android:background="#191919"
     tools:context="com.example.pavithbuddhima.tempconvtest1.MainActivity">
 
     <EditText
@@ -25,7 +25,7 @@
         android:id="@+id/enterView"
         android:textSize="40dp"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="#FFC107"
         />
 
 
