@@ -7,3 +7,8 @@ This app( #Android ) able to convertgiven temperature Celsius to Fahrenheit and 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/23357240/24073455/c4574848-0c1d-11e7-8d0d-cc7c007f2b21.png" width="350"/>
 </p>
+<br>
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/23357240/24073404/48771852-0c1d-11e7-9185-5813add78ea2.png" width="350"/>
+</p>
+<br>
