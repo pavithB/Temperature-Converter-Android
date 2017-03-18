@@ -33,26 +33,35 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
+
                 enterTemp = enterview.getText().toString();
-                double convertTemp ;
-                String finalTemp;
 
-                if(c2f.isChecked()){
+                if (enterTemp.equals("")) {
 
-                    convertTemp = ((Double.parseDouble(enterTemp)) *9/5) + 32;
+                    
+                }else{
 
-                    finalTemp = String.valueOf(convertTemp);
+                    double convertTemp;
+                    String finalTemp;
 
-                    display.setText(finalTemp);
+                    if (c2f.isChecked()) {
+
+                        convertTemp = ((Double.parseDouble(enterTemp)) * 9 / 5) + 32;
+
+                        finalTemp = String.valueOf(convertTemp);
+
+                        display.setText(finalTemp);
 
 
-                }else if(f2c.isChecked()){
+                    } else if (f2c.isChecked()) {
 
-                    convertTemp = ((Double.parseDouble(enterTemp))-32) * 5/9;
+                        convertTemp = ((Double.parseDouble(enterTemp)) - 32) * 5 / 9;
 
-                    finalTemp = String.valueOf(convertTemp);
+                        finalTemp = String.valueOf(convertTemp);
 
-                    display.setText(finalTemp);
+                        display.setText(finalTemp);
+
+                    }
 
                 }
             }
